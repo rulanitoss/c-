@@ -6,7 +6,8 @@ using namespace std;
 int main () {
 
     int opcao;
-    for (int i=0;i<1;i=0) {
+    do
+    {
         cout << "Digite um numero entre 1 e 3:\n";
         cout << "Opçoes disponiveis:\n"<<"(0) sair do programa\n"<<"(1) e bom programador\n"<<"(2) e muito bom programador\n"<<"(3) e excelente programador"<<endl;
         cin >> opcao;
@@ -29,12 +30,15 @@ int main () {
                 cout <<"Nao sei oque estas a pedir";
 
         }
-        if (opcao == 0) break;
     }
 
+         while(opcao != 0);
 
 
 
 
-return 0;
+
+
+
+    return 0;
 }
